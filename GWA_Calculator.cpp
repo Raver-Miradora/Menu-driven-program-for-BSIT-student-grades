@@ -1,12 +1,12 @@
 /*
  *
- * Copyright (c) 2023 Raver B. Miradora (mrepol742 .github.io). All Rights Reserved.
+ * Copyright (c) 2023 Raver B. Miradora (Raver-Miradora.github.io). All Rights Reserved.
  *
  * License under the GNU General Public License, version 3.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     https://github.com/mrepol742/CRUD-Project/blob/master/LICENSE
+ *     https://github.com/Raver-Miradora/Menu-driven-program-for-BSIT-student-grades/blob/main/LICENSE
  *
  * Unless required by the applicable law or agreed in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -120,7 +120,6 @@ void gwaConverter(){
         cout << "Enter Your General Weighted Average(GWA): ";
         cin >> gwa;
 
-
         if (gwa == 1.0 || gwa == 1){
             cout << "Equivalent Grade: 99" << endl;
         }
@@ -151,7 +150,7 @@ void gwaConverter(){
         else if (gwa >= 1.75 && gwa <= 1.79){
             cout << "Equivalent Grade: 90" << endl;
         }
-        else if (gwa == 1.8 && gwa <=1.89){
+        else if (gwa >= 1.8 && gwa <=1.89){
             cout << "Equivalent Grade: 89" << endl;
         }
         else if (gwa >= 1.9 && gwa <= 1.99){
